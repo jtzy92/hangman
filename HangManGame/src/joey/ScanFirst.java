@@ -50,7 +50,7 @@ public class ScanFirst {
                 }
             } else {
                 System.out.println("Player 1, key in your word of choice: ");
-                word = userKey.nextLine();
+                word = userKey.nextLine().toLowerCase();
                 System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 System.out.println("Ready for player 2! Good luck!");
                 while (true) {
